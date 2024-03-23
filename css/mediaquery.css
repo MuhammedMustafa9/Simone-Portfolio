@@ -1,0 +1,200 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .homesection h1 {
+    font-size: 2.5rem;
+  }
+  /* Services Section */
+  .services .text p {
+    padding-right: 0;
+  }
+  /* Portfolio Section */
+  .albums ul {
+    width: 100% !important;
+  }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* about section */
+  .about h2 {
+    font-size: 3rem;
+  }
+  .about h2::after {
+    font-size: 2rem;
+  }
+  .experince li {
+    width: 50%;
+  }
+  .experince li:nth-child(2) {
+    border: none;
+  }
+  .experince li:nth-child(1) {
+    border-bottom: 1px solid #e0dede;
+  }
+  .experince li:nth-child(2) {
+    border-bottom: 1px solid #e0dede;
+  }
+  .about h2::before {
+    top: 80%;
+  }
+  /* Services Section */
+  .services li {
+    width: 100%;
+  }
+  .services h2 {
+    font-size: 3rem;
+  }
+  .services h2::after {
+    font-size: 2rem;
+  }
+  .services h2::before {
+    top: 80%;
+  }
+  /* Resume Section */
+  .resume h2 {
+    font-size: 3rem;
+  }
+  .resume h2::after {
+    font-size: 2rem;
+  }
+  .resume h2::before {
+    top: 80%;
+  }
+  .resume .content {
+    flex-wrap: wrap;
+  }
+  .resume .content ul {
+    width: 100%;
+    margin: auto;
+  }
+  .skills {
+    width: 100%;
+    margin: auto;
+  }
+  .skills li {
+    width: 100%;
+  }
+  /* Portfolio Section */
+  .portfolio h2 {
+    font-size: 3rem;
+  }
+  .portfolio h2::after {
+    font-size: 2rem;
+  }
+  .portfolio h2::before {
+    top: 80%;
+  }
+  .albums ul {
+    width: 90%;
+    margin: auto;
+  }
+  .albums li {
+    padding-right: 0;
+  }
+  /* Client Section */
+  .client h2 {
+    font-size: 3rem;
+  }
+  .client h2::after {
+    font-size: 2rem;
+  }
+  .client h2::before {
+    top: 80%;
+  }
+  .client .feedback {
+    width: 100%;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Contact Section */
+  .contact h2 {
+    font-size: 3rem;
+  }
+  .contact h2::after {
+    font-size: 2rem;
+  }
+  .contact h2::before {
+    top: 80%;
+  }
+  .contact .contact-info{
+    width: 100%;
+  }
+  .contact form{
+    width: 100%;
+  }
+  .contact .content{
+    text-align: center;
+  }
+  .contact .social-media ul{
+    justify-content: center;
+  }
+  .contact form .content .half-input{
+    width: 100%;
+  }
+  .contact form .content .half-input:first-child{
+    margin-bottom: 20px;
+  }
+  /* Footer */
+  .footer .content{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer p{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #menu:checked ~ .links {
+    opacity: 0;
+    display: none;
+  }
+  .links {
+    margin: 0;
+  }
+  .navbar label {
+    opacity: 1;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .links ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .links li {
+    padding: 10px 15px;
+    position: relative;
+  }
+  .links li:not(:last-child)::after {
+    content: "";
+    /* margin: auto; */
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    left: 10px;
+  }
+  /* About Section */
+  .about .personal-info,
+  .about .description {
+    width: 100%;
+  }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
